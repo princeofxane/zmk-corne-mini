@@ -212,12 +212,10 @@
                 // |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |
                 // |  `  | SFT | ALT | CTL |     |   |  -  | CTL | ALT | SFT |  \  |
                 // |     |     |     |     |     |   |     |  =  |  {  |  }  |     |
-                // |     |     |     |     |     |   |      &trans  &kp EXCL  &kp AT          &kp HASH           &kp DLLR         &kp PRCNT    &kp CARET  &kp AMPS         &kp ASTRK      &kp LEFT_PARENTHESIS  &kp RPAR       &trans
-    &trans  &trans    &trans          &hm LALT UP_ARROW  &hm LCTRL SQT    &kp GRAVE    &kp MINUS  &hm RCTRL EQUAL  &hm RALT LBKT  &hm RSHFT RBKT        &hm RGUI BSLH  &trans
-    &trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp TILDE    &kp UNDER  &kp PLUS         &kp LBRC       &kp RBRC              &kp PIPE       &trans
-                                    &kp LGUI           &trans           &kp SPACE    &kp RET    &trans           &trans_  |  +  |  [  |  ]  |  |  |
+                // |     |     |     |     |     |   |  _  |  +  |  [  |  ]  |  |  |
                 //             |     |     |     |   |     |     |     |
                 // -----------------------------------------------------------------
+
 
                 bindings = <
                     &trans  &kp EXCL  &kp AT          &kp HASH           &kp DLLR         &kp PRCNT    &kp CARET  &kp AMPS         &kp ASTRK      &kp LEFT_PARENTHESIS  &kp RPAR       &trans
