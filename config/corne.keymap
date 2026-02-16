@@ -111,17 +111,17 @@
                 display-name = "Sym";
                 // -----------------------------------------------------------------
                 // |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |
-                // |  `  | SFT | ALT | CTL |     |   |  -  |  +  | ALT | SFT |  '  |
-                // |     |     |     |  "  |     |   |     | CTL |  {  |  }  |     |
+                // |  `  | SFT | ALT | CTL |     |   |  -  | CTL | ALT | SFT |  '  |
+                // |     |     |     |  "  |     |   |     |  +  |  {  |  }  |     |
                 // |     |     |     |     |     |   |  _  |  =  |  [  |  ]  |  \  |
                 //             |     |     |     |   |     |     |     |
                 // -----------------------------------------------------------------
 
                 bindings = <
-                    &trans  &kp EXCL   &kp AT     &kp HASH   &kp DLLR       &kp PRCNT                 &kp CARET  &kp AMPS         &kp ASTRK      &kp LPAR        &kp RPAR  &trans
-                    &trans  &kp GRAVE  &kp LSHFT  &kp LALT   &hm LCTRL DQT  &trans                    &kp MINUS  &kp PLUS         &hm RALT LBRC  &hm RSHFT RBRC  &kp SQT   &trans
-                    &trans  &trans     &trans     &trans     &trans         &trans                    &kp UNDER  &hm RCTRL EQUAL  &kp LBKT       &kp RBKT        &kp BSLH  &trans
-                                                  &trans     &trans         &trans                    &trans     &trans           &trans
+                    &trans  &kp EXCL   &kp AT     &kp HASH   &kp DLLR       &kp PRCNT                 &kp CARET  &kp AMPS        &kp ASTRK      &kp LPAR        &kp RPAR  &trans
+                    &trans  &kp GRAVE  &kp LSHFT  &kp LALT   &hm LCTRL DQT  &trans                    &kp MINUS  &hm RCTRL PLUS  &hm RALT LBRC  &hm RSHFT RBRC  &kp SQT   &trans
+                    &trans  &trans     &trans     &trans     &trans         &trans                    &kp UNDER  &kp EQUAL       &kp LBKT       &kp RBKT        &kp BSLH  &trans
+                                                  &trans     &trans         &trans                    &trans     &trans          &trans
                 >;
         };
 
