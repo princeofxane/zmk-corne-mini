@@ -199,10 +199,10 @@
                 // -----------------------------------------------------------------
 
                 bindings = <
-                    &trans  &kp ESCAPE    &none           &none         &none            &none                          &none   &kp N7        &kp N8       &kp N9        &kp N0  &trans
-                    &trans  &kp CAPSLOCK  &hm LSHFT HOME  &kp UP_ARROW  &hm LCTRL END    &kp PAGE_UP                    &none   &hm RCTRL N4  &hm RALT N5  &hm RSHFT N6  &none   &trans
-                    &trans  &trans        &kp LEFT        &kp DOWN      &kp RIGHT_ARROW  &kp PAGE_DOWN                  &none   &kp N1        &kp N2       &kp N3        &none   &trans
-                                                          &trans        &trans           &trans                         &trans  &trans        &trans
+                    &trans  &kp N1       &kp N2        &kp N3             &kp N4           &kp N5           &kp N6   &kp N7        &kp N8       &kp N9        &kp N0            &trans
+                    &trans  &hm LGUI N0  &hm LSHFT N4  &hm LALT UP_ARROW  &hm LCTRL DEL    &kp PAGE_UP      &kp N0   &hm RCTRL N4  &hm RALT N5  &hm RSHFT N6  &hm RGUI PAGE_UP  &trans
+                    &trans  &trans       &kp LEFT      &kp DOWN           &kp RIGHT_ARROW  &kp PAGE_DOWN    &trans   &kp N1        &kp N2       &kp N3        &kp PAGE_DOWN     &trans
+                                                    &kp LGUI           &trans           &kp SPACE        &kp RET  &trans        &trans
                 >;
         };
 
